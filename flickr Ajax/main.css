@@ -1,0 +1,62 @@
+body{
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.magglass{
+    width: 100px;
+}
+
+.card{
+    margin: 12px 12px 12px 12px;;
+    box-shadow: 0px -1px 12px 0px rgba(0,0,0,0.75);
+    border:0!important;
+}
+
+.search{
+    padding: 10px;
+    font-size: 68px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+#item{
+    padding: 10px;
+    margin-right: 10px;
+    border: transparent;
+    border-radius: 30px;
+    width: 50%;
+}
+#item:focus{
+    outline: 0;
+}
+input#item:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.rem{
+    margin-top: auto;
+    font-weight: 700!important;
+}
+
+.rem:hover{
+    background: #200122!important;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6f0000, #200122)!important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6f0000, #200122)!important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border: 1px solid #200122 !important;
+}
+.image-search{
+    padding: 40px;
+}
+
+.search-box{
+    padding: 15px;
+}
+
+#searchBtn{
+    border-radius: 30px;
+}
